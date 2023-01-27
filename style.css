@@ -1,0 +1,53 @@
+.hidden{
+    display: none;
+}
+
+.modal{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 20%;
+
+    background-color:white;
+    padding:6rem;
+    border-radius:20px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.container{
+    background-color:rgb(6, 156, 96);
+    max-width:1920px;
+    width:100%;
+    height:601px;
+    
+}
+
+.btns-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+    background-color:rgb(6, 156, 96);
+}
+
+.show-modal{
+    font-size:25px;
+    border-radius: 30px;
+    border:none;
+}
+
+.show-modal:hover{
+    cursor:pointer;
+    font-size:27px;
+    transition: 0.3s;
+
+}
